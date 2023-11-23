@@ -1,179 +1,425 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-/* Navbar img */
-
-.img_navbar {
-    display: flex;
-    padding-top: 20px;
-    padding-left: 10px;
-    width: 140.996px;
-    height: 40.14px;
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* Navbar */
-
-.text_ul_navbar {
-    color: #000;
-    display: flex;
-    justify-content: center;
+ul {
+  list-style: none;
 }
 
-.text_li_navbar {
-    font-family: Montserrat;
-    margin-right: 27px;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 34.2px;
-    /* 180% */
-    list-style: none;
+a {
+  text-decoration: none;
 }
 
-/* Navbar btn */
-.navbar_btn_div {
-    display: flex;
-    justify-content: right;
-    
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  gap: 27px;
+}
+
+.list_item {
+  color: black;
+  font-size: 19px;
+  font-weight: 700px;
+  line-height: 34px;
+}
+
+.yangilik {
+  color: black;
+}
+
+.biz {
+  color: black;
+}
+
+.kusr {
+  color: black;
+}
+
+.bnts {
+  color: black;
 }
 
 .navbar_btn {
-    display: flex;
-    padding: 17.15px 47.035px 17.15px 47.245px;
-    justify-content: center;
-    align-items: flex-start;
-    border-radius: 40px;
-    background: linear-gradient(90deg, #FF4D00 0%, #FF9365 100%);
-    border-bottom: #FF4D00;
+  width: 240px;
+  height: 50px;
+  border-radius: 40px;
+  outline: none;
+  font-weight: 700;
+  border: none;
+  border-radius: 40px;
+  line-height: 22px;
+  text-transform: capitalize;
+  font-size: 19px;
+  color: white;
+  background: linear-gradient(90deg, #ff4d00 0%, #ff9365 100%);
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.darkmode {
+  font-size: 24px;
+}
+
+.h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  color: #e84e10;
+
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+.online {
+  display: flex;
+  padding: 20px;
+  font-weight: 700;
+  margin-bottom: 23px;
+  flex-direction: column;
+  align-items: center;
+  background: #282828;
+}
+
+.dars_cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap ;
+}
+
+.dars_card {
+  margin-top: 20px;
+}
+
+
+.online-p {
+  color: white;
+ margin-top: 30px;
+ font-weight: 700;
+}
+
+.online-title {
+  color: white;
+   margin-top: 30px;
+   font-weight: 700;
+}
+
+
+.online-text {
+  color: white;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Swipor */
 
 /* h1 */
 .swipor_div_h {
-    max-width: 715px;
+  max-width: 715px;
 }
 
 .h_swipor {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 76.8px;
-    /* 120% */
+  color: #000;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76.8px;
+  /* 120% */
 }
 
 /* p */
 .swipor_p {
-    color: #262626;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* 150% */
+  color: #262626;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 150% */
 }
 
 /* btn */
 
 .swipor_btn {
-    display: flex;
-    margin-top: 60px;
-    padding: 14.6px 39.8px 14.6px 40px;
-    justify-content: center;
-    align-items: flex-start;
-    border-radius: 40px;
-    background: #E84E10;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.8px;
+  text-transform: capitalize;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #ff4d00 0%, #ff9365 100%);
+  padding: 18px 48px;
+  border: none;
+}
+
+
+
+
+
+
+.Registon_haqida{
+width: 1500px;
+height: 550px;
+margin-top: 60px;
+border-radius: 30px;
+background: #E8FAFF;
+}
+
+/* .registon_haqida_img_girl_bir{
+width: 250px;
+height: 500px;
+} */
+
+.registon_haqida_minimalumot{
+  display: flex;
+  gap: 212px;
+ 
+}
+.registon_haqida_title{
+  padding-left: 533px;
+  padding-top: 90px;
+}
+
+.registon_haqida_text_h{
+max-width: 803.19px;
+color: #000;
+font-family: Montserrat;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 72px;
+}
+
+.registon_haqida_malumot_bir{
+  padding-left: 533px;
+  padding-top: 40px;
+}
+.registon_haqida_malumot_bir_h{
+  max-height: 104.5px;
+color: #000;
+font-family: Montserrat;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 104.5px; 
+}
+
+.registon_haqida_malumot_bir_p{
+  max-width: 225.52px;
+  color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+
+.registon_haqida_malumot_ikki{
+padding-top: 40px; 
+}
+
+.registon_haqida_malumot_bir_h_ikki{
+  max-height: 104.5px;
+  color: #000;
+font-family: Montserrat;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 104.5px; 
+}
+.registon_haqida_malumot_bir_p_ikki{
+  max-width: 225.52px;
+  color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+
+.registon_haqida_malumot_uch{
+  padding-top: 40px;
+}
+
+.registon_haqida_malumot_bir_h_uch{
+  max-height: 104.5px;
+  color: #000;
+font-family: Montserrat;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 104.5px;
+}
+.registon_haqida_malumot_bir_p_uch{
+  max-width: 225.52px;
+  color: #000;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
 }
 
 /* News */
 
 /* title p */
 .news_p {
-    max-width: 1400px;
-    max-height: 43.2px;
-    color: #E84E10;
-    text-align: center;
-    font-family: Kanit;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 43.2px;
-    /* 180% */
+  max-width: 1400px;
+  max-height: 43.2px;
+  color: #e84e10;
+  text-align: center;
+  font-family: Kanit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43.2px;
+  /* 180% */
 }
 
 /* title h */
 .news_h {
-    max-width: 1400px;
-    color: #000;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 72px;
-    /* 120% */
+  max-width: 1400px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  /* 120% */
 }
 
 /* card */
 .news_card {
-    display: flex;
-    min-height: 648.062px;
-    padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: stretch;
+  display: flex;
+  min-height: 648.062px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
 }
 
 /* card p */
 .card_p {
-    display: flex;
-    padding: 0px 132.17px 0px 3.59px;
-    align-items: center;
-    gap: 8.24px;
-    align-self: stretch;
+  display: flex;
+  padding: 0px 132.17px 0px 3.59px;
+  align-items: center;
+  gap: 8.24px;
+  align-self: stretch;
 }
 
 /* caed h6 */
 .card-text {
-    color: #000;
+  color: #000;
 
-    font-family: Montserrat;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 31.2px;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 31.2px;
 }
-
-
 
 /* navbar img */
 
-
 .swipor_div_p {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .swipor_img_p1 {
-    width: 22px;
-    height: 25px;
-    margin-top: 30px;
+  width: 22px;
+  height: 25px;
+  margin-top: 30px;
 }
-
-
 
 .swipor_p1 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
-
-
 
 .swipor_img_p2 {
-    width: 29px;
-    height: 25px;
+  width: 29px;
+  height: 25px;
 }
+
+.card-text {
+  display: flex;
+}
+
+.news_card_van {
+  display: flex;
+  width: 329px;
+  min-height: 1px;
+  padding: 15px 15px 65.01px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.news_card_tu {
+  display: flex;
+  width: 329px;
+  min-height: 1px;
+  padding: 15px 15px 65px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.news_card_fre {
+  display: flex;
+  width: 329px;
+  min-height: 1px;
+  padding: 15px 15px 65.01px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.news_card_fo {
+  display: flex;
+  width: 329px;
+  min-height: 1px;
+  padding: 15px 15px 65.01px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
